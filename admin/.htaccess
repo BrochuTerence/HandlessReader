@@ -1,0 +1,5 @@
+PerlSetVar AuthFile /PAOJP3/admin/passwd/htpasswd.txt
+AuthName "Acces Restreint"
+AuthType Basic
+require valid-user
+
